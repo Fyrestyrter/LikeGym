@@ -10,4 +10,5 @@
     <color name="background">#EFF3F4</color>
     <color name="blue">#5666F5</color>
     <color name="grey">#C4C4C4</color>
+    <color name="price_button_grey">#555</color>
 </resources>
