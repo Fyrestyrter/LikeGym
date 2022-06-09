@@ -45,6 +45,10 @@
     <string name="checkout_item_description">Description</string>
     <string name="add_google_wallet_success" translatable="false">The pass was added successfully!</string>
     <string name="buy_with_googlepay_button_content_description">buy with GPay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="news_title">Новости</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="profile_title">Профиль</string>
 
 
 </resources>

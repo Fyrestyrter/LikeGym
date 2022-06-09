@@ -14,15 +14,23 @@
         <entry key="..\:/LikeGym/app/src/main/res/drawable/googlepay_button_content.xml" value="0.3005" />
         <entry key="..\:/LikeGym/app/src/main/res/drawable/googlepay_button_no_shadow_background.xml" value="0.3005" />
         <entry key="..\:/LikeGym/app/src/main/res/drawable/googlepay_button_overlay.xml" value="0.3005" />
+        <entry key="..\:/LikeGym/app/src/main/res/drawable/ic_btnback.xml" value="0.3005" />
+        <entry key="..\:/LikeGym/app/src/main/res/drawable/ic_btnbonus.xml" value="0.3005" />
+        <entry key="..\:/LikeGym/app/src/main/res/drawable/ic_btnmember.xml" value="0.3005" />
+        <entry key="..\:/LikeGym/app/src/main/res/drawable/ic_btnsettings.xml" value="0.3005" />
+        <entry key="..\:/LikeGym/app/src/main/res/drawable/ic_vector.xml" value="0.3005" />
         <entry key="..\:/LikeGym/app/src/main/res/drawable/rectangle_corner.xml" value="0.195" />
         <entry key="..\:/LikeGym/app/src/main/res/drawable/regname.xml" value="0.2985" />
+        <entry key="..\:/LikeGym/app/src/main/res/drawable/regnameinvalid.xml" value="0.3005" />
         <entry key="..\:/LikeGym/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.12081659973226239" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/activity_checkout.xml" value="0.35190217391304346" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/activity_code.xml" value="0.18802083333333333" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/activity_navigation.xml" value="0.1" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/activity_news.xml" value="0.358695652173913" />
-        <entry key="..\:/LikeGym/app/src/main/res/layout/activity_registration.xml" value="0.5" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/activity_settings.xml" value="0.33" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/activity_signup.xml" value="0.36231884057971014" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/add_to_google_wallet_button.xml" value="0.35190217391304346" />
@@ -33,15 +41,18 @@
         <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_home.xml" value="0.18802083333333333" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_intro1.xml" value="0.1" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_intro22.xml" value="0.2" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_news.xml" value="0.33" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_notifications.xml" value="0.18802083333333333" />
-        <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_profile.xml" value="0.18802083333333333" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/googlepay_button.xml" value="0.35190217391304346" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/intro1.xml" value="0.24954710144927536" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/intro2.xml" value="0.18802083333333333" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/intro3.xml" value="0.25" />
         <entry key="..\:/LikeGym/app/src/main/res/layout/nav_header_news.xml" value="0.36231884057971014" />
         <entry key="..\:/LikeGym/app/src/main/res/menu/activity_news_drawer.xml" value="0.67" />
-        <entry key="..\:/LikeGym/app/src/main/res/menu/bottom_nav_menu.xml" value="0.18802083333333333" />
+        <entry key="..\:/LikeGym/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
+        <entry key="..\:/LikeGym/app/src/main/res/menu/news.xml" value="0.36666666666666664" />
+        <entry key="..\:/LikeGym/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3005" />
       </map>
     </option>
   </component>

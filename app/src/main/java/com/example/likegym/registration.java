@@ -31,25 +31,28 @@ public class registration extends AppCompatActivity {
 
         attempts.setText(Integer.toString(attempt_counter));
 
-        login_btn.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v){
-                        if(username.getText().toString().equals("+79017124665") && password.getText().toString().equals("admin")){
-                            Toast.makeText(registration.this,"Успешный вход",Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(registration.this, newsActivity.class);
-                            startActivity(intent);
-                        }else{
-                            Toast.makeText(registration.this,"Номер телефона или пароль неверны",Toast.LENGTH_SHORT).show();
-                            attempt_counter--;
-                            attempts.setText(Integer.toString(attempt_counter));
-                            if(attempt_counter == 0){
-                                login_btn.setEnabled(false);
-                            }
-                        }
-                    }
-                }
-        );
-    }
+        login_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (username.getText().toString().equals("+79017124665")) {
+                    if (password.getText().toString().equals("admin")) {
+                        Toast.makeText(registration.this, "Успешный вход", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(registration.this, NavigationActivity.class);
+                        startActivity(intent);
+                    } else {
+                        password.setError("Неверный пароль");
 
+                    }
+                } else {
+                    username.setError("Неверный номер телефона");
+                    attempt_counter--;
+                    attempts.setText(Integer.toString(attempt_counter));
+                }
+
+                if (attempt_counter == 0) {
+                    login_btn.setEnabled(false);
+                }
+            }
+        });
+    }
 }
