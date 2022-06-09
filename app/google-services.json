@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "647238704568",
+    "project_id": "likegym-cf815",
+    "storage_bucket": "likegym-cf815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647238704568:android:faf8b9bf70daf52b17c34d",
+        "android_client_info": {
+          "package_name": "com.example.likegym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647238704568-ivdh47btfstuc6dq2mtq1693i3l5lniv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.likegym",
+            "certificate_hash": "4bb16ecc2aa9c9902528cc2286c78e033382883a"
+          }
+        },
+        {
+          "client_id": "647238704568-3kelo0j8pffj81v06a6a66notjpbckfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJj6n0pUAw6ApCN9tCI3402yXCdlR6mHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647238704568-3kelo0j8pffj81v06a6a66notjpbckfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

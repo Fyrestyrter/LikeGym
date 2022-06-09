@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LikeGym/app/src/main/res/drawable/background_intro1.xml" value="0.2985" />
+        <entry key="..\:/LikeGym/app/src/main/res/drawable/circle.xml" value="0.2985" />
+        <entry key="..\:/LikeGym/app/src/main/res/drawable/ellipse_2.xml" value="0.196" />
+        <entry key="..\:/LikeGym/app/src/main/res/drawable/rectangle_corner.xml" value="0.195" />
+        <entry key="..\:/LikeGym/app/src/main/res/drawable/regname.xml" value="0.2985" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.12081659973226239" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/activity_code.xml" value="0.18802083333333333" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/activity_news.xml" value="0.358695652173913" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/activity_registration.xml" value="0.5" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/activity_signup.xml" value="0.36231884057971014" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/app_bar_news.xml" value="0.36231884057971014" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/content_news.xml" value="0.36231884057971014" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_dashboard.xml" value="0.18802083333333333" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_home.xml" value="0.18802083333333333" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_intro1.xml" value="0.1" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_intro22.xml" value="0.2" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_notifications.xml" value="0.18802083333333333" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/fragment_profile.xml" value="0.18802083333333333" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/intro1.xml" value="0.24954710144927536" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/intro2.xml" value="0.18802083333333333" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/intro3.xml" value="0.25" />
+        <entry key="..\:/LikeGym/app/src/main/res/layout/nav_header_news.xml" value="0.36231884057971014" />
+        <entry key="..\:/LikeGym/app/src/main/res/menu/activity_news_drawer.xml" value="0.67" />
+        <entry key="..\:/LikeGym/app/src/main/res/menu/bottom_nav_menu.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
