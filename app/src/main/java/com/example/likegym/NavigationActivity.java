@@ -2,14 +2,17 @@ package com.example.likegym;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentContainerView;
 
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class NavigationActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
+public class NavigationActivity extends FragmentActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     BottomNavigationView bottomNavigationView;
 
@@ -22,6 +25,7 @@ public class NavigationActivity extends AppCompatActivity implements BottomNavig
 
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
         bottomNavigationView.setSelectedItemId(R.id.news);
+
 
     }
     NewsFragment firstFragment = new NewsFragment();
