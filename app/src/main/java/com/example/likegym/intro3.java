@@ -23,7 +23,7 @@ public class intro3 extends Fragment {
         view.findViewById(R.id.btnstart).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), registration.class);
+                Intent intent = new Intent(getActivity(), OTPAuth.class);
                 startActivity(intent);
             }
         });
