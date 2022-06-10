@@ -70,7 +70,6 @@ public class CheckoutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        initializeUi();
 
         // Check Google Pay availability
         model = new ViewModelProvider(this).get(CheckoutViewModel.class);

@@ -155,15 +155,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editnickname" />
 
-    <Button
-        android:layout_width="310dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="33dp"
-        android:background="@drawable/rectangle_corner"
-        android:text="Изменить фотографию профиля"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editnick" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

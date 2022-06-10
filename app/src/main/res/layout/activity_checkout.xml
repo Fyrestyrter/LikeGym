@@ -13,13 +13,14 @@
 -->
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
     tools:context="com.example.likegym.CheckoutActivity">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -28,57 +29,46 @@
 
         <ImageView
             android:id="@+id/detailImage"
-            android:layout_width="match_parent"
-            android:layout_height="350dp"
-            android:layout_marginTop="20dp"
-            android:src="@drawable/product" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/standart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.619"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <ImageView
+            android:id="@+id/detailImage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:src="@drawable/gold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.619"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detailImage" />
 
         <TextView
             android:id="@+id/detailTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="[Placeholder] Men's Tech Shell Full-Zip"
+            android:text="Оплата"
             android:textColor="?android:textColorPrimary"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="64dp" />
 
-        <TextView
-            android:id="@+id/detailPrice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="$50.20"
-            android:textColor="?android:textColorSecondary" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="@string/checkout_item_description"
-            android:textColor="?android:textColorPrimary"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/detailDescription"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="15dp"
-            android:text="[Placeholder] A versatile full-zip that you can wear all day long and even..."
-            android:textColor="?android:textColorSecondary" />
-
-        <!--
-            TODO Check out Google Pay's brand guidelines to discover all button types and styles:
-            https://developers.google.com/pay/api/android/guides/brand-guidelines#assets
-        -->
         <include
             android:id="@+id/googlePayButton"
             layout="@layout/buy_with_googlepay_button"
             android:layout_width="match_parent"
             android:layout_height="@dimen/buy_button_height"
-            android:layout_marginBottom="20dp"
-            android:visibility="gone" />
+            android:layout_marginTop="130dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detailImage1" />
 
         <LinearLayout
             android:id="@+id/passContainer"
@@ -86,23 +76,26 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginBottom="20dp"
-            android:visibility="gone">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="?android:textColorSecondary"
-                android:text="Or add a pass to your Google Wallet:"/>
-
-            <include
-                android:id="@+id/addToGoogleWalletButton"
-                layout="@layout/add_to_google_wallet_button"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/wallet_button_height"
-                android:layout_marginTop="10dp"/>
+            android:visibility="visible">
 
         </LinearLayout>
 
-    </LinearLayout>
+        <include
+            android:id="@+id/addToGoogleWalletButton"
+            layout="@layout/add_to_google_wallet_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wallet_button_height"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="723dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or add a pass to your Google Wallet:"
+            android:textColor="?android:textColorSecondary"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="671dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

@@ -35,7 +35,6 @@
     <string name="invalid_password">Пароль должен быть больше 5 символов</string>
     <string name="login_failed">"Вход не выполнен"</string>
 
-    <string name="store_name" translatable="false">Auto T-Shirt Shop</string>
 
     <!-- Checkout -->
     <string name="google_pay_status_unavailable">Unfortunately, Google Pay is not available on this device.</string>

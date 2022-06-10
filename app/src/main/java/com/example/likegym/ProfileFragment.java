@@ -48,6 +48,16 @@ public class ProfileFragment extends Fragment {
                 startActivityForResult(intent, 1);
             }
         });
+
+        view.findViewById(R.id.membershipbtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), CheckoutActivity.class);
+                intent.putExtra("name", ((TextView)getView().findViewById(R.id.name)).getText().toString());
+                intent.putExtra("nick", ((TextView)getView().findViewById(R.id.nickname)).getText().toString());
+                startActivityForResult(intent, 1);
+            }
+        });
         return view;
     }
 }
